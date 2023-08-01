@@ -1,0 +1,10 @@
+/* swiper.css */
+.swiper-container {
+    width: 100%;
+  }
+  
+  .swiper-slide {
+    width: 300px;
+    height: 200px;
+  }
+  

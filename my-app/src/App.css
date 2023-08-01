@@ -1,0 +1,134 @@
+/* Overall Css of Website */
+
+/* Style for nav li */
+
+.nav_li {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  margin-top: 10px !important;
+}
+
+.nav_li:hover {
+  color: #000;
+}
+
+/* style for sign in and login button */
+
+.btn_login {
+  color: #000 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 700 !important ;
+  line-height: normal;
+  text-decoration: none;
+  border-radius: 5px;
+  background: #ffc558 !important;
+  border-color: #ffc558 !important;
+  width: 70px !important;
+}
+
+.btn_sign_in {
+  color: #000 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 700 !important ;
+  line-height: normal;
+  text-decoration: none;
+  border-radius: 5px;
+  background: #fff !important;
+  border-color: #fff !important;
+  width: 70px !important;
+}
+
+.btn-group {
+  border-radius: 5px;
+  background: #fffefe;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Adding Background image for header */
+
+/* .header{
+
+  background-image: url('./images/bg.jpg');
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 360px;
+} */
+
+/* Adding Background image for footer */
+
+/* Slidder Code */
+
+/* CoverFlowSlider.css */
+
+/* CoverFlowSlider.css */
+
+.cover-flow-slider {
+  display: flex;
+  width: 100%;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  transition: transform 0.5s ease; /* Add transition for smooth sliding */
+  margin-top: 130px;
+}
+
+.slide {
+  background-color: #f1f1f1;
+  width: 223px;
+  margin-right: 30px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  margin: 0 20px;
+  display: flex;
+  cursor: pointer;
+  transition: transform 0.5s ease, opacity 0.5s ease, transform-origin 0.5s ease; /* Add transition for smooth zooming and opacity */
+  height: 550px;
+  transform: scale(0.7);
+  opacity: 0.5;
+}
+
+.slide.active {
+  transform: scale(1) translateY(-50px); /* Scale and translate centered slide */
+  opacity: 1;
+  transform-origin: center center; /* Set the transform origin to center for zooming effect */
+}
+
+/* Adjust the translateY value for better vertical alignment of centered slide */
+.slide.active:nth-child(3) {
+  transform: scale(1) translateY(-10px);
+}
+
+.slide.active:nth-child(4) {
+  transform: scale(1) translateY(50px);
+}
+
+.right-arrow {
+  position: absolute;
+  top: 1369px;
+  right: 0px;
+  font-size: 80px;
+  background: none;
+  border: 0;
+  color: #FFCC66;
+}
+
+.left-arrow {
+
+  position: absolute;
+  top: 1369px;
+  left: 0px;
+  font-size: 80px;
+  background: none;
+  border: 0;
+  color: #FFCC66;
+}
+
+/* Additional CSS for sliding effect */
