@@ -17,6 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/login', function(){
+
+    return view('front.home.auth.login');
+});
+
 Route::get('/index', function () {
-    return view('index');
+    return view('front.business.index');
 });
