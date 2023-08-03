@@ -31,6 +31,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
     </style>
 </head>
+
 <body>
     <div class="container-fluid nav-banner " id="nav-banner">
         <div class="row">
@@ -38,7 +39,7 @@
                 <nav class="navbar navbar-expand-lg fixed-top">
                     <div class="container-fluid nav-back">
                         <a class="navbar-brand " href="#">
-                            <img src="{{asset('images/Frame (1).png')}}" alt="">
+                            <img src="{{ asset('images/Frame (1).png') }}" alt="">
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -87,7 +88,7 @@
                                 </li>
                                 <li class="pt-md-2">
                                     <a class="tel-a" href="tel:+(877) 767-9357"><img class="img-id "
-                                            src="{{asset('images/phone-call.png')}}" alt="">(877)
+                                            src="{{ asset('images/phone-call.png') }}" alt="">(877)
                                         767-9357</a>
                                 </li>
 
@@ -108,7 +109,8 @@
 
                         <div class="card-body">
                             <h2 class="card-title">It's free to be on</h2>
-                            <p class="card-text"><img class="card-imges" src="{{asset('images/Frame (1).png')}}" alt="">
+                            <p class="card-text"><img class="card-imges" src="{{ asset('images/Frame (1).png') }}"
+                                    alt="">
                             </p>
                             <p class="card-text">&#x2713; Update your business information</p>
                             <p class="card-text">&#x2713; Receive and respond to messages</p>
@@ -132,14 +134,14 @@
                 </div>
                 <div class="flex-img d-md-flex text-center" id="icons">
                     <div class="col-md-6 col-sm-12 " id="con1">
-                        <img id="img1" src="{{asset('images/Group 76.png')}}" alt="">
+                        <img id="img1" src="{{ asset('images/Group 76.png') }}" alt="">
                         <h4>80+ million people</h4>
                         <p>
                             visit Yuyki each month to find restaurants
                             ,home services, and more1 </p>
                     </div>
                     <div class="col-md-6 col-sm-12" id="con2">
-                        <img id="img2" src="{{asset('images/ff.png')}}" alt="">
+                        <img id="img2" src="{{ asset('images/ff.png') }}" alt="">
                         <h4>83% of users</h4>
                         <p>hire or buy from a businessthey
                             found on Yuyki 2
@@ -162,7 +164,7 @@
                                     customers and grow your business</h2>
                             </div>
                             <div class="col-md-6 text-img" id="side-img">
-                                <img src="{{asset('images/Group 85.png')}}" alt="">
+                                <img src="{{ asset('images/Group 85.png') }}" alt="">
                             </div>
 
                             <div class="col-md-6 text-img ">
@@ -199,7 +201,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6" id="side-img">
-                                <img src="{{asset('images/Group 84 (1).png')}}" alt="">
+                                <img src="{{ asset('images/Group 84 (1).png') }}" alt="">
                             </div>
                         </div>
                     </div>
@@ -208,7 +210,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6 text-img" id="side-img">
-                                <img src="{{asset('images/Group 98.png')}}" alt="">
+                                <img src="{{ asset('images/Group 98.png') }}" alt="">
                             </div>
                             <div class="col-md-6 text-img" style="padding-bottom: 100px">
                                 <div class="div-content-box-side">
@@ -238,7 +240,8 @@
                     <p class="text-grid">Find the right solutions for your business</p>
                     <div class="row">
                         <div class="col-md-6 text-px mt-0.5 d-flex align-items-center ">
-                            <img class="image-fluid img-grided" src="{{asset('images/Component 16.png')}}" alt="">
+                            <img class="image-fluid img-grided" src="{{ asset('images/Component 16.png') }}"
+                                alt="">
                             <div class="row">
                                 <div class="texted">
                                     <h3>Help people get to know you</h3>
@@ -251,7 +254,7 @@
 
 
                         <div class="col-md-6 text-pl mt-1 d-flex align-items-center ">
-                            <img class="image-fluid" src="{{asset('images/Component 22.png')}}" alt="">
+                            <img class="image-fluid" src="{{ asset('images/Component 22.png') }}" alt="">
                             <div class="row">
                                 <div class="texted">
                                     <h3>Home and Local Services</h3>
@@ -263,7 +266,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6 text-px mt-4 d-flex align-items-center">
-                                <img class="image-fluid" src="{{asset('images/Component 17.png')}}" alt=""
+                                <img class="image-fluid" src="{{ asset('images/Component 17.png') }}" alt=""
                                     style="height: 82px;">
                                 <div class="row">
                                     <div class="texted">
@@ -276,7 +279,8 @@
                                 </div>
                             </div>
                             <div class="col-md-6 text-pl mt-4 d-flex align-items-center">
-                                <img class="image-fluid" src="{{asset('images/Component 23.png')}}" alt="">
+                                <img class="image-fluid" src="{{ asset('images/Component 23.png') }}"
+                                    alt="">
                                 <div class="row">
                                     <div class="texted">
                                         <h3>Marketing & Advertising Agencies</h3>
@@ -327,17 +331,17 @@
         <div class="container  ">
             <div class="row justify-content-center text-center">
                 <div class="col-md-4 article-grid-col  ">
-                    <img src="{{asset('images/Rectangle 74.png')}}" alt="">
+                    <img src="{{ asset('images/Rectangle 74.png') }}" alt="">
                     <h3>How to add a business to Yelp in 3 simple steps</h3>
                     <a id="article-grid-a" href="">Read article</a>
                 </div>
                 <div class="col-md-4 article-grid-col ">
-                    <img src="{{asset('images/Rectangle 75.png')}}" alt="">
+                    <img src="{{ asset('images/Rectangle 75.png') }}" alt="">
                     <h3>How to write a great business description for review and social media sites</h3>
                     <a href="">Read article</a>
                 </div>
                 <div class="col-md-4">
-                    <img src="{{asset('images/Rectangle 76.png')}}" alt="">
+                    <img src="{{ asset('images/Rectangle 76.png') }}" alt="">
                     <h3>5 free things you didn’t know you could doon your Yuyki Page</h3>
                     <a href="">Read article</a>
                 </div>
@@ -370,7 +374,7 @@
             <div class="row">
 
                 <div class="col-md-3" id="img-sider">
-                    <img src="{{asset('images/Group 91.png')}}" alt="">
+                    <img src="{{ asset('images/Group 91.png') }}" alt="">
                 </div>
                 <div class="col-md-3 pt-140 " id="li-bullet">
                     <ul>
@@ -393,7 +397,7 @@
                         <li><span class="span-box1" id="spamelement">Start</span></li>
                     </div>
                     <div class="logo-social">
-                        <img src="{{asset('images/Frame (1).png')}}" alt="">
+                        <img src="{{ asset('images/Frame (1).png') }}" alt="">
                         <a href="#!"><i class=' boxed bx bxl-facebook-circle'></i></a>
 
                         <a href="#!"><i class='bx bxl-instagram-alt'></i></a>
@@ -406,10 +410,11 @@
                 <div class="col-md-3 download-icon" style="padding-top: 110px">
                     <a class="download-icon-1 " href="">
                         <img class="download-iconn" style="width: 170px; height:160px;"
-                            src="{{asset('images/google-play-png-logo-3799.png')}}" alt="">
+                            src="{{ asset('images/google-play-png-logo-3799.png') }}" alt="">
                     </a>
                     <a href="">
-                        <img style="width: 200px; height:70px;" src="{{asset('images/pngwing.com (2).png')}}" alt="">
+                        <img style="width: 200px; height:70px;" src="{{ asset('images/pngwing.com (2).png') }}"
+                            alt="">
                     </a>
                 </div>
             </div>

@@ -17,11 +17,21 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
 Route::get('/login', function(){
 
     return view('front.home.auth.login');
 });
+
+Route::get('/restaurant', function(){
+
+    return view('front.restaurant.restaurant');
+});
+
+Route::get('/services', function(){
+
+    return view('front.services.services');
+});
+
 
 Route::get('/index', function () {
     return view('front.business.index');
