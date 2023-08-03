@@ -14,12 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('front.home.home');
 });
 
 Route::get('/login', function(){
 
-    return view('front.home.auth.login');
+    return view('front.auth.login');
 });
 
 Route::get('/restaurant', function(){
@@ -33,6 +33,6 @@ Route::get('/services', function(){
 });
 
 
-Route::get('/index', function () {
+Route::get('/business', function () {
     return view('front.business.index');
 });
