@@ -164,8 +164,7 @@
                                 <a href="{{ url('/login') }}" class="btn" id="button-1-nav" type="submit">Sign
                                     in</a>
                                 <a href="{{ url('/login') }}" class="btn bg-theme" id="button-1-nav"
-                                    type="submit">Sign
-                                    in</a>
+                                    type="submit">Login</a>
                             </div>
                     </div>
                 </div>
@@ -196,7 +195,7 @@
                         style="background:#FCD975; border-radius:25px;border:none;">
                     <img src="{{ asset('images/magnifying-glass (1) 1.png') }}"
                         style="position: absolute;
-                left: 191px;
+                left: 15%;
                 margin-top: 4px;">
                 </div>
             </div>
