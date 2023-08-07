@@ -15,31 +15,31 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{asset('css/desktop4.css')}}">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
-    </script>
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
-    </script>
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
     </style>
+
 </head>
 
 <body>
-    <div class="container-fluid nav-banner " id="nav-banner">
-        <div class="row">
-            <div class="col">
-                <nav class="navbar navbar-expand-lg fixed-top">
-                    <div class="container-fluid nav-back">
+
+    <div class="header">
+                <nav class="navbar navbar-expand-lg  ">
+                    <div class="container-fluid nav-back ">
                         <a class="navbar-brand " href="#">
-                            <img src="{{ asset('images/f.png') }}" class="ms-3" alt="">
+                            <img src="{{asset('images/Frame (1).png')}}" alt="">
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -105,280 +105,193 @@
                     </div>
                 </nav>
             </div>
-        </div>
-        <div class="col-12">
+    <div class="header-after">
+        <div class="container">
+
             <div class="row">
                 <div class="col-md-6 col-sm-12">
-                    <div class="card verify-card verify-card-sm">
-
-                        <div class="card-body">
-                            <h2 class="card-title">It's free to be on</h2>
-                            <p class="card-text"><img class="card-imges" src="{{ asset('images/Frame (1).png') }}"
-                                    alt="">
-                            </p>
-                            <p class="card-text">&#x2713; Update your business information</p>
-                            <p class="card-text">&#x2713; Receive and respond to messages</p>
-                            <p class="card-text"> &#x2713; Respond to reviews</p>
-                            <h6 class="card-text"><a href="{{url('/Lets_Start')}}" class="btn" id="btn-banner">Verify my free
-                                    listing</a>
-                            </h6>
-
-                        </div>
+                    <div class="ms-3">
+                        <h4>Be found by new <br> customers—for free.</h4>
+                        <p>When people can find your up-to-date page on Yelp, they’re <br> likely to buy from you.</p>
+                        <p>In fact, 83% of Yelp users say they hire or buy from a business they <br>
+                            found on Yelp.1</p>
+                    </div>
+                    <div class="btn btn-left text-start">
+                        <button class="btn" type="submit">Verify my free listing</button>
                     </div>
                 </div>
+                <div class="col-md-6 mt-5 col-sm-12">
+                    <div class="img-right">
+                        <img src="{{asset('images/Group 100.png')}}" alt="">
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
-    <div class="content-text">
+    <div class="li">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 d-flex justify-content-center text-center">
-                    <h6 class="content-text-h6">Yelp for Business provides free and
-                        paid advertising solutions for your small business</h6>
-                </div>
-                <div class="flex-img d-md-flex text-center" id="icons">
-                    <div class="col-md-6 col-sm-12 " id="con1">
-                        <img id="img1" src="{{ asset('images/Group 76.png') }}" alt="">
-                        <h4>80+ million people</h4>
-                        <p>
-                            visit Yuyki each month to find restaurants
-                            ,home services, and more1 </p>
-                    </div>
-                    <div class="col-md-6 col-sm-12" id="con2">
-                        <img id="img2" src="{{ asset('images/ff.png') }}" alt="">
-                        <h4>83% of users</h4>
-                        <p>hire or buy from a businessthey
-                            found on Yuyki 2
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="shadow-top mr-10">
-        <div class="shadow-bottom">
-            <div class="shadow-right">
-                <div class="content-txt">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 texth2 d-flex justify-content-center text-center">
-                                <h2>Yelp makes it easy to connect with new
-                                    customers and grow your business</h2>
-                            </div>
-                            <div class="col-md-6 text-img" id="side-img">
-                                <img src="{{ asset('images/Group 85.png') }}" alt="">
-                            </div>
-
-                            <div class="col-md-6 text-img ">
-                                <div class="div-content-box-side">
-                                    <h6>BUSINESS PAGE</h6>
-                                    <h3>Help people get to know you</h3>
-                                    <p>Having a strong presence on Yelp helps you establish trust with
-                                        potential customers. Manage your page for free or upgrade to stand out
-                                        from the competition.</p>
-                                    <p> &#x2713; Update your business info so people can find you</p>
-                                    <p> &#x2713; Respond to reviews and messages as soon as they come in</p>
-                                    <p> &#x2713; Add photos to showcase the best of your business</p>
-                                    <a href="">Learn more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="txt-content">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="div-content-box-side"style="padding-bottom: 100px">
-                                    <h6>BUSINESS PAGE</h6>
-                                    <h3>Help people get to know you</h3>
-                                    <p>Having a strong presence on Yelp helps you establish trust with
-                                        potential customers. Manage your page for free or upgrade to stand out
-                                        from the competition.</p>
-                                    <p> &#x2713; Reach 3x more potential customers3
-                                    </p>
-                                    <p> &#x2713; Create and run your ad in minutes</p>
-                                    <p> &#x2713; Only pay when interested people click on your ad</p>
-                                    <a href="">Learn more</a>
-                                </div>
-                            </div>
-                            <div class="col-md-6" id="side-img">
-                                <img src="{{ asset('images/Group 84 (1).png') }}" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="content-txt">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 text-img" id="side-img">
-                                <img src="{{ asset('images/Group 98.png') }}" alt="">
-                            </div>
-                            <div class="col-md-6 text-img" style="padding-bottom: 100px">
-                                <div class="div-content-box-side">
-                                    <h6>Yuyki Connect</h6>
-                                    <h3>Bring your business to life with Yuyki
-                                        Connect</h3>
-                                    <p>Yelp Connect lets you post regular updates so you can help potential
-                                        customers learn more about your business.</p>
-                                    <p> &#x2713; Creating a post is fast and easy</p>
-                                    <p> &#x2713; Post about what’s new, what’s hot and what’s unique about
-                                        &nbsp;&nbsp;your business</p>
-                                    <p> &#x2713; Your posts are promoted in emails to Yelp users every week</p>
-                                    <a href="">Learn more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="grid-content">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="text-grid">Find the right solutions for your business</p>
-                    <div class="row">
-                        <div class="col-md-6 text-px mt-0.5 d-flex align-items-center ">
-                            <img class="image-fluid img-grided" src="{{ asset('images/Component 16.png') }}"
-                                alt="">
-                            <div class="row">
-                                <div class="texted">
-                                    <h3>Help people get to know you</h3>
-                                    <p>Turn searchers into diners and diners into regulars with marketing
-                                        and front-of-house tools like Waitlist, Reservations, and Takeout.</p>
-                                    <a href="">Learn more</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col-md-6 text-pl mt-1 d-flex align-items-center ">
-                            <img class="image-fluid" src="{{ asset('images/Component 22.png') }}" alt="">
-                            <div class="row">
-                                <div class="texted">
-                                    <h3>Home and Local Services</h3>
-                                    <p>Grow your home and local services business with a range of
-                                        solutions from Yelp that help attract more customers.</p>
-                                    <a class="a-link" href="">Learn more </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 text-px mt-4 d-flex align-items-center">
-                                <img class="image-fluid" src="{{ asset('images/Component 17.png') }}" alt=""
-                                    style="height: 82px;">
-                                <div class="row">
-                                    <div class="texted">
-                                        <h3>National and Regional Brands</h3>
-                                        <p>Explore Yelp’s solutions for national, regional, and franchise
-                                            businesses including targeted local advertising, upgraded business
-                                            pages, and dedicated support.</p>
-                                        <a href="">Learn more</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 text-pl mt-4 d-flex align-items-center">
-                                <img class="image-fluid" src="{{ asset('images/Component 23.png') }}"
-                                    alt="">
-                                <div class="row">
-                                    <div class="texted">
-                                        <h3>Marketing & Advertising Agencies</h3>
-                                        <p>Connect your clients with high purchase intent customers at scale.
-                                            Join the Yelp Advertising Partner Program.</p>
-                                        <a class="a-link" href="">Learn more</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="mail-bar">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2>Business resources, delivered to <br> your inbox</h2>
-                    <p id="mail-bar-p1">Get the latest blog content, info on virtual events, and the occasional
-                        freebie.
-                    </p>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-outline  form-white mb-4">
-                                    <input style="background-color:#d9d9d9;" type="email" id="form5Example2"
-                                        class="form-control py-2" placeholder="Gmail.com" />
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <p id="mail-bar-p2">By continuing, you agree to Yuyki <span style="color: #016FC2;">Terms of
-                            Service</span> and acknowledge Yuuki’s <span style="color: #016FC2;">Privacy
-                            Policy</span>.Email</p>
-                    <div class="pt-4">
-                        <a style="background-color:#d9d9d9;" href="#" class="btn">Submit</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="article-grid ">
-        <div class="container  ">
-            <div class="row justify-content-center text-center">
-                <div class="col-md-4 article-grid-col  ">
-                    <img src="{{ asset('images/Rectangle 74.png') }}" alt="">
-                    <h3>How to add a business to Yelp in 3 simple steps</h3>
-                    <a id="article-grid-a" href="">Read article</a>
-                </div>
-                <div class="col-md-4 article-grid-col ">
-                    <img src="{{ asset('images/Rectangle 75.png') }}" alt="">
-                    <h3>How to write a great business description for review and social media sites</h3>
-                    <a href="">Read article</a>
-                </div>
-                <div class="col-md-4">
-                    <img src="{{ asset('images/Rectangle 76.png') }}" alt="">
-                    <h3>5 free things you didn’t know you could doon your Yuyki Page</h3>
-                    <a href="">Read article</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="listing">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="text-center">Ready to get started? It’s free, easy, <br> and only takes a few minutes.
-                    </h2>
-                    <div class="text-center">
-                        <a href="{{url('/Lets_Start')}}" style="background-color:#d9d9d9;" class="btn padding-button ">Verify my free
-                            listing</a>
-                    </div>
+                <div class="col-md-10">
                     <ol>
-                        <li>Comscore Media Metrix®, as of March 2022</li>
-                        <li>Based on a survey conducted by Yelp in August 2022. Methodology used: ComScore demographics
-                            and people who reported having used Yelp in the prior 3 months
-                        </li>
-                        <li>Yelp internal data 2019</li>
+                        <li>- Based on a survey conducted by Yelp in August 2022. Methodology used ComScore demographics
+                            and people who reported having used Yelp in the prior 3 months</li>
                     </ol>
                 </div>
             </div>
         </div>
     </div>
+    <div class="shadow-top">
+        
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-md-4 container-grid"> 
+                    <div class="img-head pt-3">
+                    <img src="{{asset('images/Group.png')}}" alt="">
+                </div>
+                    <h4>Then, give them the info they need</h4>
+                    <p>
+                        Just having your business name on your Yelp Page isn’t enough. Help customers get to know your
+                        business by sharing important information, like: 
+                        <ul>
+                       <li>Up-to-date business hours, including holiday hour changes</li> 
+                        <li>The story and history of your business, so customers can get to know you better</li> 
+                       <li>Link to additional information, your website, and more, so customers can explore as as they’d
+                        like</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="col-md-4 container-grid">
+                    <div class="text-center pt-3">
+                    <img class="text-center" src="{{asset('images/reporter.png')}}" alt="">
+                </div>
+                    <h4>First, catch the eye of new customers</h4>
+                    <p>
+                        80+ million people visit Yelp each month.
+                        Make it easier for local customers to find you
+                        by keeping your business page current. <br>
+                        <br><span > Make updates like:</span>
+                        <ul>
+                       <li>Adding your business services
+                       </li> 
+                        <li> Sharing unique attributes of your business
+                            </li> 
+                       <li>Posting photos with informative captions</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="col-md-4 container-grid " id="container-grid-last">
+                    <div class="text-center">
+                    <img class="text-center" src="{{asset('images/Frame (2).png')}}" alt="">
+                </div>
+                    <h4>Be (literally) ahead of the <br> competition</h4>
+                      <p> 
+                        There are 5.8 million active claimed business
+                        pages on Yelp.3 With Yelp Ads, you’ll stand out
+                        from your competition and convert more
+                        customers with:
+                        <ul>
+                       <li>Placement as a “Sponsored Result” on the top and bottom of search result pages
+                        </li> 
+                        <li>Prominent ad display on competitor pages and other key places on the site</li> 
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="list-button">
+        <div class="shadow-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center btn-hover" >
+                        <button class="btn padding-button ">Verify my free
+                            listing</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="li">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <ol>
+                        <li>- Comscore Media Metrix®, as of March 2022</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-layout">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="text-center">A Yelp Business Page includes:</h3>
+            <div class="row grid-image">
+                <div class="col-md-6 ">
+                   
+                    <ul class="list-unstyled">
+                        <li> <img src="{{asset('images/Component 47.png')}}" alt=""></li>
+                        <li><img src="{{asset('images/Component 50.png')}}" alt=""></li>
+                        <li><img src="{{asset('images/Component 51.png')}}" alt=""></li>
+                        <li><img src="{{asset('images/Component 52.png')}}" alt=""></li>
+                        <li><img src="{{asset('images/Component 51.png')}}" alt=""></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        <li> <img src="{{asset('images/Component 53.png')}}" alt=""></li>
+                        <li><img src="{{asset('images/Component 54.png')}}" alt=""></li>
+                        <li><img src="{{asset('images/Component 55.png')}}" alt=""></li>
+                        <li><img src="{{asset('images/Component 56.png')}}" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 li-list">
+            <h4>Got a question?</h4>
+            <ul class="list-unstyled">
+                <li><i class='bx bxs-star'></i>Is a Yelp Business Page free?</li>
+                <li><i class='bx bxs-star'></i>How do I create a business page on Yuyki?</li>
+                <li><i class='bx bxs-star'></i>How much does it cost to put your business on Yuyki?</li>
+                <li><i class='bx bxs-star'></i>What does it mean to claim a business on Yuyki?</li>
+                <li><i class='bx bxs-star'></i>How do I promote my business on Yuyki?</li>
+                <li><i class='bx bxs-star'></i>How long does it take to approve a business?</li>
+                <li><i class='bx bxs-star'></i>How do businesses use Yuyki?</li>
+                <li><i class='bx bxs-star'></i>How do I edit my Yuyki page?</li>
+                <li><i class='bx bxs-star'></i>How can I advertise my business for free?</li>
+                <li><i class='bx bxs-star'></i>How will people find my Business Page on Yuyki?</li>
+                <li><i class='bx bxs-star'></i>Will customers be able to contact me from my free Business Page?</li>
+                <li><i class='bx bxs-star'></i>I completed the process. Why don’t I see my page live on Yelp?</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
     <div class="borderss">
         <div class="container">
             <div class="row">
 
                 <div class="col-md-3" id="img-sider">
-                    <img src="{{ asset('images/Group 91.png') }}" alt="">
+                    <img src="{{asset('images/Group 91.png')}}" alt="">
                 </div>
                 <div class="col-md-3 pt-140 " id="li-bullet">
                     <ul>
@@ -401,7 +314,7 @@
                         <li><span class="span-box1" id="spamelement">Start</span></li>
                     </div>
                     <div class="logo-social">
-                        <img src="{{ asset('images/Frame (1).png') }}" alt="">
+                        <img src="{{asset('images/Frame (1).png')}}" alt="">
                         <a href="#!"><i class=' boxed bx bxl-facebook-circle'></i></a>
 
                         <a href="#!"><i class='bx bxl-instagram-alt'></i></a>
@@ -414,11 +327,10 @@
                 <div class="col-md-3 download-icon" style="padding-top: 110px">
                     <a class="download-icon-1 " href="">
                         <img class="download-iconn" style="width: 170px; height:160px;"
-                            src="{{ asset('images/google-play-png-logo-3799.png') }}" alt="">
+                            src="{{asset('images/google-play-png-logo-3799.png')}}" alt="">
                     </a>
                     <a href="">
-                        <img style="width: 200px; height:70px;" src="{{ asset('images/pngwing.com (2).png') }}"
-                            alt="">
+                        <img style="width: 200px; height:70px;" src="{{asset('images/pngwing.com (2).png')}}" alt="">
                     </a>
                 </div>
             </div>
@@ -581,8 +493,7 @@
             <!-- Copyright -->
             <div class="text-center Copyright2">
                 Copyright © 2004–2023 Yuyki and related marks are registered trademarks of Yuyki
-                <a class="text-blue" href="https://terms.yelp.com/privacy/en_us/20220831_en_us/">Privacy Policy Terms
-                    of
+                <a class="text-blue" href="https://terms.yelp.com/privacy/en_us/20220831_en_us/">Privacy Policy Terms of
                     Service</a>
             </div>
             <!-- Copyright -->

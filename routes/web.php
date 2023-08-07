@@ -36,3 +36,12 @@ Route::get('/services', function(){
 Route::get('/business', function () {
     return view('front.business.index');
 });
+
+Route::get('/Lets_Start', function () {
+    return view('front.business.lets_start');
+});
+
+Route::get('/desktop4', function () {
+    return view('front.business.desktop4');
+});
+

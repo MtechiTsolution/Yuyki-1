@@ -116,3 +116,131 @@ nav {
     color:black;
     text-decoration: none;
 }
+
+.slider-heading{
+
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+}
+
+
+.select{
+
+    border-radius: 115px;
+    box-shadow: 3px 3px 3px 3px #FCD975;
+
+}
+
+.search_icons{
+
+    font-size: 39px;
+    color: black;
+}
+
+.search_icons:hover{
+
+    font-size: 39px;
+    color: #FCD975;
+}
+
+.banner_search_icons{
+
+    font-size: 45px;
+    color: #FCD975;
+}
+
+.banner_search_heading{
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    color: #FCD975;
+
+}
+
+.banner_search_paragraph{
+
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29.05px;
+}
+
+.dropdown-toggle::after{
+
+    display: none;
+}
+
+.search_h4{
+
+    color: #EFAF18;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.dropdown-toggle::after{
+
+    display: none !important; 
+}
+
+.download_yuyki_h2{
+
+    font-weight: 700 !important;
+    font-size: 40px !important;
+    line-height: 60px !important;
+}
+
+.download_yuyki{
+
+    background-color: #FCD975;
+}
+
+.download_yuyki_a{
+
+    font-size: 23px !important;
+    font-weight: 300 !important;
+}
+
+.getreward_h3{
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.getreward_p{
+
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 29.05px;
+}
+
+.btn-themes{
+
+    background-color: #D9D9D9 !important;
+    color: black;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+}
+
+.recent_Activity_h4{
+
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    color:#000000;
+}
+
+.recent_Activity_p{
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.15px;
+    color: #000000;
+}
+
+
+
+
+
