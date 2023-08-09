@@ -54,7 +54,7 @@
                                         Products
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="">Business Page</a></li>
+                                        <li><a href="{{url('/desktop4')}}">Business Page</a></li>
                                         <li><a href="">Upgrade Package</a></li>
                                         <li><a href="">Yelp Ads</a></li>
                                         <li><a href="">Connect</a></li>

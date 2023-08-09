@@ -188,7 +188,7 @@
         <div class="container mt-5">
             <div class="row mt-5">
                 <div class="col-12 text-center mt-5">
-                    <img src="{{ asset('images/Frame.png') }}" class="mt-5" alt="">
+                    <img src="{{ asset('images/banner_logo.png') }}" class="mt-5" alt="">
                 </div>
             </div>
         </div>
