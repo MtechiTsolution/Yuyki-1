@@ -55,7 +55,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="{{url('/desktop4')}}">Business Page</a></li>
-                                        <li><a href="">Upgrade Package</a></li>
+                                        <li><a href="{{url('/desktop6')}}">Upgrade Package</a></li>
                                         <li><a href="">Yelp Ads</a></li>
                                         <li><a href="">Connect</a></li>
                                     </ul>
@@ -98,8 +98,8 @@
 
                             </ul>
                             <div class="btn gx-md-2 btn-navbar" id="button-nav">
-                                <button class="btn" type="submit">Verify my free listing</button>
-                                <button class="btn" type="submit">Login</button>
+                                <a class="btn" >Verify my free listing</a>
+                                <a class="btn" href="{{url('/desktop4')}}">Login</a>
                             </div>
                         </div>
                     </div>

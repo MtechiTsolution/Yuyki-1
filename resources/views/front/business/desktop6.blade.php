@@ -15,7 +15,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{asset('css/desktop4.css')}}">
+    <link rel="stylesheet" href="{{asset('css/desktop6.css')}}">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -24,7 +24,7 @@
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" 
         crossorigin="anonymous"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <style>
@@ -36,247 +36,266 @@
 <body>
 
     <div class="header">
-                <nav class="navbar navbar-expand-lg  ">
-                    <div class="container-fluid nav-back ">
-                        <a class="navbar-brand " href="#">
-                            <img src="{{asset('images/Frame (1).png')}}" alt="">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Products
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="">Business Page</a></li>
-                                        <li><a href="">Upgrade Package</a></li>
-                                        <li><a href="">Yelp Ads</a></li>
-                                        <li><a href="">Connect</a></li>
-                                    </ul>
-                                </li>
-
-                                <li class="nav-item dropdown ">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Industries
-                                    </a>
-                                    <ul class="dropdown-menu" id="dropdown-menu-item">
-                                        <li><a href="#">Business Page</a>
-                                        </li>
-                                        <li><a href="">Restaurant and Night Life</a></li>
-                                        <li><a href="https://brands.yelp.com/?utm_medium=www&utm_source=cons_home&utm_content=header"> National and Regional Brands</a></li>
-                                        <li><a href="https://business.yelp.com/partners/?utm_medium=www&utm_source=cons_home&utm_content=header"> Marketing & Advertising Agencies</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Support</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Resources
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="https://business.yelp.com/business-guide/?utm_medium=www&utm_source=cons_home&utm_content=header">Small Business Guide</a></li>
-                                        <li><a href="https://business.yelp.com/resources/?utm_medium=www&utm_source=cons_home&utm_content=header">Resource Center</a></li>
-                                        <li><a href="https://business.yelp.com/resources/events/?utm_medium=www&utm_source=cons_home&utm_content=header">Events</a></li>
-                                        <li><a href="https://business.yelp.com/resources/events/?utm_medium=www&utm_source=cons_home&utm_content=header">Podcasts</a></li>
-                                        <li><a href="https://business.yelp.com/resources/events/?utm_medium=www&utm_source=cons_home&utm_content=header">Blog</a></li>
-                                    </ul>
-                                </li>
-                                <li class="pt-md-2">
-                                    <a class="tel-a" href="tel:+(877) 767-9357"><img class="img-id "
-                                            src="{{asset('images/phone-call.png')}}" alt="">(877)
-                                        767-9357</a>
-                                </li>
-
+        <nav class="navbar navbar-expand-lg  ">
+            <div class="container-fluid nav-back ">
+                <a class="navbar-brand " href="#">
+                    <img src="{{asset('images/Frame (1).png')}}" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="">Business Page</a></li>
+                                <li><a href="">Upgrade Package</a></li>
+                                <li><a href="">Yelp Ads</a></li>
+                                <li><a href="">Connect</a></li>
                             </ul>
-                            <div class="btn gx-md-2 btn-navbar" id="button-nav">
-                                <a class="btn" href="{{url('/Lets_Start')}}">Verify my free listing</a>
-                                <a class="btn" href="{{url('/business_login')}}">Login</a>
-                            </div>
-                        </div>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Industries
+                            </a>
+                            <ul class="dropdown-menu" id="dropdown-menu-item">
+                                <li><a href="#">Business Page</a>
+                                </li>
+                                <li><a href="">Restaurant and Night Life</a></li>
+                                <li>
+                                    <a
+                                        href="https://brands.yelp.com/?utm_medium=www&utm_source=cons_home&utm_content=header">
+                                        National and Regional Brands</a></li>
+                                <li>
+                                    <a
+                                        href="https://business.yelp.com/partners/?utm_medium=www&utm_source=cons_home&utm_content=header">
+                                        Marketing & Advertising Agencies
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Support</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Resources
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a
+                                        href="https://business.yelp.com/business-guide/?utm_medium=www&utm_source=cons_home&utm_content=header">Small
+                                        Business Guide</a></li>
+                                <li><a
+                                        href="https://business.yelp.com/resources/?utm_medium=www&utm_source=cons_home&utm_content=header">Resource
+                                        Center</a></li>
+                                <li><a
+                                        href="https://business.yelp.com/resources/events/?utm_medium=www&utm_source=cons_home&utm_content=header">Events</a>
+                                </li>
+                                <li><a
+                                        href="https://business.yelp.com/resources/events/?utm_medium=www&utm_source=cons_home&utm_content=header">Podcasts</a>
+                                </li>
+                                <li><a
+                                        href="https://business.yelp.com/resources/events/?utm_medium=www&utm_source=cons_home&utm_content=header">Blog</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="pt-md-2">
+                            <a class="tel-a" href="tel:+(877) 767-9357"><img class="img-id " src="{{asset('images/phone-call.png')}}"
+                                    alt="">(877)
+                                767-9357</a>
+                        </li>
+
+                    </ul>
+                    <div class="btn gx-md-2 btn-navbar" id="button-nav">
+                        <button class="btn" type="submit">Verify my free listing</button>
+                        <button class="btn" type="submit">Login</button>
                     </div>
-                </nav>
+                </div>
             </div>
-    <div class="header-after">
+        </nav>
+    </div>
+    <div class="header-after text-center">
         <div class="container">
+
             <div class="row">
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-12 col-sm-12">
                     <div class="ms-3">
-                        <h4>Be found by new <br> customers—for free.</h4>
-                        <p>When people can find your up-to-date page on Yelp, they’re <br> likely to buy from you.</p>
-                        <p>In fact, 83% of Yelp users say they hire or buy from a business they <br>
-                            found on Yelp.1</p>
+                        <h4>Stand out. Attract more<br> customers. Be chosen. </h4>
+                        <p>The Upgrade Package combines Yelp’s best tools so you can grab <br> people’s attention and
+                            bring in more business. <br> Get started today with a risk-free trial.*</p>
                     </div>
                     <div class="btn btn-left text-start">
-                        <a class="btn" href="{{url('/Lets_Start')}}">Verify my free listing</a>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-5 col-sm-12">
-                    <div class="img-right">
-                        <img src="{{asset('images/Group 100.png')}}" alt="">
+                        <button class="btn" type="submit">Try it free</button>
                     </div>
                 </div>
 
             </div>
         </div>
     </div>
-    <div class="li">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10">
-                    <ol>
-                        <li>- Based on a survey conducted by Yelp in August 2022. Methodology used ComScore demographics
-                            and people who reported having used Yelp in the prior 3 months</li>
-                    </ol>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <img class="img-fluid" class="text-center" src="{{asset('images/Screenshot (62) 1.png')}}" alt="">
                 </div>
             </div>
         </div>
     </div>
-    <div class="shadow-top">
-        
-        <div class="container p-5">
-            <div class="row">
-                <div class="col-md-4 container-grid"> 
-                    <div class="img-head pt-3">
-                    <img src="{{asset('images/Group.png')}}" alt="">
-                </div>
-                    <h4>Then, give them the info they need</h4>
-                    <p>
-                        Just having your business name on your Yelp Page isn’t enough. Help customers get to know your
-                        business by sharing important information, like: 
-                        <ul>
-                       <li>Up-to-date business hours, including holiday hour changes</li> 
-                        <li>The story and history of your business, so customers can get to know you better</li> 
-                       <li>Link to additional information, your website, and more, so customers can explore as as they’d
-                        like</li>
-                    </ul>
-                    </p>
-                </div>
-                <div class="col-md-4 container-grid">
-                    <div class="text-center pt-3">
-                    <img class="text-center" src="{{asset('images/reporter.png')}}" alt="">
-                </div>
-                    <h4>First, catch the eye of new customers</h4>
-                    <p>
-                        80+ million people visit Yelp each month.
-                        Make it easier for local customers to find you
-                        by keeping your business page current. <br>
-                        <br><span > Make updates like:</span>
-                        <ul>
-                       <li>Adding your business services
-                       </li> 
-                        <li> Sharing unique attributes of your business
-                            </li> 
-                       <li>Posting photos with informative captions</li>
-                    </ul>
-                    </p>
-                </div>
-                <div class="col-md-4 container-grid " id="container-grid-last">
-                    <div class="text-center">
-                    <img class="text-center" src="{{asset('images/Frame (2).png')}}" alt="">
-                </div>
-                    <h4>Be (literally) ahead of the <br> competition</h4>
-                      <p> 
-                        There are 5.8 million active claimed business
-                        pages on Yelp.3 With Yelp Ads, you’ll stand out
-                        from your competition and convert more
-                        customers with:
-                        <ul>
-                       <li>Placement as a “Sponsored Result” on the top and bottom of search result pages
-                        </li> 
-                        <li>Prominent ad display on competitor pages and other key places on the site</li> 
-                    </ul>
-                    </p>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-    <div class="list-button">
-        <div class="shadow-bottom">
+    <div class="li text-center">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="text-center btn-hover" >
-                        <a href="{{url('/Lets_Start')}}" class="btn padding-button ">Verify my free
-                            listing</a>
+                    <ol class="list-unstyled">
+                        <li>93% of people on Yelp compare businesses before making a decision.</li>
+                    </ol>
+                    <p class="mt-1" id="par">Quickly show people you’re the right business for them</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+        <div class="row mt-5">
+            <div class="col-md-6 container-grid">
+                <div class="img-head">
+                    <img class="img-fluid" src="{{asset('images/Group 104.png')}}" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 container-grid">
+                <h4>Stand out in search results</h4>
+                <p>
+                    Add eye-catching visuals to your listing and get people’s attention while
+                    they’re searching for a business like yours. <br>
+                    Let potential customers know more about you by highlighting what
+                    makes your business special. You can also choose your favorite photos
+                    to show off what you do best.
+
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 container-grid">
+                <div class="img-head">
+                    <img class="img-fluid" src="{{asset('images/Group 104.png')}}" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 container-grid">
+                <h4>Convert page views into customers</h4>
+                <p>
+                    Take control of your Business Page and make it look its best. That way,
+                    you can build trust and bring in more customers <br>
+                    Put your best photos first, add your logo, and create a portfolio of your
+                    best work. Plus, block competitor ads from your page and include a
+                    customized button to encourage customer action.
+
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 container-grid">
+                <div class="img-head">
+                    <div class="">
+                    <img class="img-fluid" src="{{asset('images/Group 104.png')}}" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 container-grid">
+                <h4>Reach your community in new ways</h4>
+                <p>
+                    Share news about discounts, specials, and anything you want potential
+                    customers to know. <br>
+                    Your posts will be promoted in the Yelp app and through weekly emails
+                    sent to people interested in businesses like yours.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="grid-layout">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="row grid-image">
+                        <h3 class="text-center mb-5">The Upgrade Package includes</h3>
+                        <div class="col-md-6 ">
+
+                            <ul class="list-unstyled">
+                                <li> <img src="{{asset('images/Component 57.png')}}" alt=""></li>
+                                <li><img src="{{asset('images/Component 58.png')}}" alt=""></li>
+                                <li><img src="{{asset('images/Component 59.png')}}" alt=""></li>
+                                <li><img src="{{asset('images/Component 60.png')}}" alt=""></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-unstyled">
+                                <li> <img src="{{asset('images/Component 62.png')}}" alt=""></li>
+                                <li><img src="{{asset('images/Component 61.png')}}" alt=""></li>
+                                <li><img src="{{asset('images/Component 63.png')}}" alt=""></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-7 mt-2 container-grid">
+                        <h4>Try the Upgrade Package for free</h4>
+                        <p class="ms-2">
+                            The Upgrade Package combines all our best features while also saving
+                            you 60% off the regular monthly cost of upgrades. It’s a great way to
+                            attract attention and convert more customers. Get started today with a
+                            risk-free trial.*
+
+                        </p>
+                        <div class="btn btn-left">
+                            <button class="btn" type="submit">Try it free</button>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-5 text-center ">
+                        <div class="img-head">
+                            <img src="{{asset('images/Frame (3).png')}}" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
     <div class="li">
         <div class="container">
             <div class="row">
                 <div class="col-md-10">
-                    <ol>
-                        <li>- Comscore Media Metrix®, as of March 2022</li>
+                    <ol class="list-unstyled">
+                        <li>* Terms apply <br>
+                            1 6/19 survey by SurveyMonkey of people who reported having used Yelp in the prior 3 months
+                            <br>
+                            2 Portfolio is available for eligible categories only.1 </li>
                     </ol>
                 </div>
             </div>
         </div>
     </div>
-    <div class="grid-layout">
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12">
-            <h3 class="text-center">A Yelp Business Page includes:</h3>
-            <div class="row grid-image">
-                <div class="col-md-6 ">
-                   
-                    <ul class="list-unstyled">
-                        <li> <img src="{{asset('images/Component 47.png')}}" alt=""></li>
-                        <li><img src="{{asset('images/Component 50.png')}}" alt=""></li>
-                        <li><img src="{{asset('images/Component 51.png')}}" alt=""></li>
-                        <li><img src="{{asset('images/Component 52.png')}}" alt=""></li>
-                        <li><img src="{{asset('images/Component 51.png')}}" alt=""></li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <ul class="list-unstyled">
-                        <li> <img src="{{asset('images/Component 53.png')}}" alt=""></li>
-                        <li><img src="{{asset('images/Component 54.png')}}" alt=""></li>
-                        <li><img src="{{asset('images/Component 55.png')}}" alt=""></li>
-                        <li><img src="{{asset('images/Component 56.png')}}" alt=""></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 li-list">
-            <h4>Got a question?</h4>
-            <ul class="list-unstyled">
-                <li><i class='bx bxs-star'></i>Is a Yelp Business Page free?</li>
-                <li><i class='bx bxs-star'></i>How do I create a business page on Yuyki?</li>
-                <li><i class='bx bxs-star'></i>How much does it cost to put your business on Yuyki?</li>
-                <li><i class='bx bxs-star'></i>What does it mean to claim a business on Yuyki?</li>
-                <li><i class='bx bxs-star'></i>How do I promote my business on Yuyki?</li>
-                <li><i class='bx bxs-star'></i>How long does it take to approve a business?</li>
-                <li><i class='bx bxs-star'></i>How do businesses use Yuyki?</li>
-                <li><i class='bx bxs-star'></i>How do I edit my Yuyki page?</li>
-                <li><i class='bx bxs-star'></i>How can I advertise my business for free?</li>
-                <li><i class='bx bxs-star'></i>How will people find my Business Page on Yuyki?</li>
-                <li><i class='bx bxs-star'></i>Will customers be able to contact me from my free Business Page?</li>
-                <li><i class='bx bxs-star'></i>I completed the process. Why don’t I see my page live on Yelp?</li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-
 
 
 

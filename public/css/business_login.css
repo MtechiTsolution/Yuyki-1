@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #016FC2;
+}
+body{
+    font-family: Poppins;
+}
+.navbar1{
+    background: linear-gradient(180deg, #D9D9D9 0%, rgba(217, 217, 217, 0) 147.61%);
+    box-shadow: 0px 4px 10px 0px #00000040;
+}
+.arrow{
+    width: 27.640235490460253px;
+    margin-top: 28px;
+    margin-left: 28px;
+}
+.head-welcome img{
+    margin-top: 58px;
+}
+.head-p h4
+{
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#login{
+    margin-top: 88px;
+}
+#login .pass{
+    margin-top: 10px;
+}
+#login a{
+    text-decoration: none;
+}
+.btns #btn{
+    background-color: #FCD975;
+font-size: 28px;
+font-weight: 500;
+line-height: 42px;
+letter-spacing: 0em;
+}
+.btns .btn{
+    margin-top: 10px;
+    background-color:#d9d9d9;
+font-size: 28px;
+font-weight: 500;
+line-height: 42px;
+letter-spacing: 0em;
+}
+.btns a{
+    text-decoration: none;
+font-size: 18px;
+font-weight: 300;
+line-height: 27px;
+letter-spacing: 0em;
+}
+.btns span{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+}
+.btns p{
+    margin-top: 10px;
+}
+#span-or{
+    margin-top: 60px;
+font-size: 25px;
+font-weight: 400;
+line-height: 38px;
+letter-spacing: 0em;
+}
+.btns #btn{
+    margin-top: 86px;
+}
+.btnn #btn{
+    border-radius: 10px;
+    background-color: #FCD975;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;    
+}
+.btnn #btnf{
+    border-radius: 10px;
+    background-color: #3D6AD6;
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+}
+.btnn #btna{
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+}
+.btnn p{
+    margin-top: 10px;
+}
+.btnn img{
+    margin-top: 7px;
+}
+@media (max-width:463px){
+    .btnn span{
+        display: block;
+       text-align: center;
+       margin-top: 50px;
+    }
+    .btnn img{ 
+        margin-left: 25px;
+    }
+}

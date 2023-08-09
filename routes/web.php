@@ -45,3 +45,10 @@ Route::get('/desktop4', function () {
     return view('front.business.desktop4');
 });
 
+Route::get('/business_login', function () {
+    return view('front.business_login.login');
+});
+
+Route::get('/desktop6', function () {
+    return view('front.business.desktop6');
+});
