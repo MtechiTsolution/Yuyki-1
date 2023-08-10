@@ -602,17 +602,17 @@
                 <div class="col-12">
                     <div class="row w-50 mx-auto">
                         <div class="col-4 text-center">
-                            <a  href="" class="recent_Activity_p  text-decoration-none text-black">
+                            <a  href="" class="recent_Activity_a  text-decoration-none text-black">
                                 Nearby
                             </a>
                         </div>
                         <div class="col-4 text-center">
-                            <a href="" class="recent_Activity_p  text-decoration-none text-black">
+                            <a href="" class="recent_Activity_a text-decoration-none text-black">
                                 Friend
                             </a>
                         </div>
                         <div class="col-4 text-center">
-                            <a  href=""  class="recent_Activity_p  text-decoration-none text-black">
+                            <a  href=""  class="recent_Activity_a  text-decoration-none text-black">
                                 Following
                             </a>
                         </div>
@@ -621,11 +621,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
 
     <script>
         // Get the links and corresponding divs
@@ -659,6 +654,7 @@
         function hideDiv(div) {
             div.style.display = 'none';
         }
+        
     </script>
 
 

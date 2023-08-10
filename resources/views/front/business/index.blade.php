@@ -56,7 +56,7 @@
                                     <ul class="dropdown-menu">
                                         <li><a href="{{url('/desktop4')}}">Business Page</a></li>
                                         <li><a href="{{url('/desktop6')}}">Upgrade Package</a></li>
-                                        <li><a href="">Yelp Ads</a></li>
+                                        <li><a href="{{url('/desktop8')}}">Yelp Ads</a></li>
                                         <li><a href="">Connect</a></li>
                                     </ul>
                                 </li>

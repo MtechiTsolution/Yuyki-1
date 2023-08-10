@@ -232,7 +232,7 @@ nav {
     color:#000000;
 }
 
-.recent_Activity_p{
+.recent_Activity_a{
 
     font-size: 24px;
     font-weight: 500;
@@ -240,6 +240,14 @@ nav {
     color: #000000;
 }
 
+
+.recent_Activity_a:hover{
+
+    font-weight: 700;
+    color: #000000;
+    border-bottom: #EFAF18;
+
+}
 
 
 
