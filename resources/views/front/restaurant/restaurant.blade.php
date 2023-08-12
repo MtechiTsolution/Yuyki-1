@@ -36,7 +36,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="logo-img mt-2">
-                        <img class="logo-png" src="{{asset('images/Frame.png')}}" alt="">
+                        <img class="logo-png" style="width: 200px;" src="{{asset('images/Frame.png')}}" alt="">
                         <img class="float-end me-5" src="images/Group 1.png" alt="">
                     </div>
                     <div class="row text-center" id="text-img">
@@ -67,7 +67,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-2" id="left-image">
-                    <img src="images/Frame (1).png" alt="">
+                    <img src="images/Frame (1).png" alt="" style="position: absolute; top:7px;">
                 </div>
                 <div class="col-2">
                     <img src="{{asset('images/Arrow 1 (1).png')}}" alt="">

@@ -219,7 +219,7 @@
                         class="services_h3 text-decoration-none text-black">Restaurants</a>
                 </div>
                 <div class="col-4 text-center">
-                    <a href="#" id="home_services" class="services_h3 text-decoration-none text-black">Home
+                    <a href="{{url('/services')}}" id="home_services" class="services_h3 text-decoration-none text-black">Home
                         Services</a>
                 </div>
                 <div class="col-4 text-center">

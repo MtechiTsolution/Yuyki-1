@@ -228,7 +228,7 @@
                                         &nbsp;&nbsp;your business</p>
                                     <p> &#x2713; Your posts are promoted in emails to Yelp users every week</p>
                                     <a href="">Learn more</a>
-                                </div>
+                                </div>      
                             </div>
                         </div>
                     </div>

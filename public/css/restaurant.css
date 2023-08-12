@@ -35,7 +35,7 @@ body{
 }
 #left-image{
     position: relative;
-    bottom: 180px;
+    bottom: 120px;
     right: 30px;
 }
 .center-img{
@@ -44,7 +44,7 @@ body{
 }
 #right-image{
     position: relative;
-    bottom: 180px;
+    bottom: 120px;
 }
 .arrow-side{
     position: relative;
