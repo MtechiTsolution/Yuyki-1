@@ -56,3 +56,7 @@ Route::get('/desktop6', function () {
 Route::get('/desktop8', function () {
     return view('front.business.desktop8');
 });
+
+Route::get('/desktop10', function () {
+    return view('front.business.desktop10');
+});
