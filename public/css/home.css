@@ -183,7 +183,9 @@ nav {
 
     display: none !important; 
 }
-
+.dropdown-menu{
+    background-color: #FCD975 !important;
+}
 .download_yuyki_h2{
 
     font-weight: 700 !important;
@@ -232,23 +234,47 @@ nav {
     color:#000000;
 }
 
-.recent_Activity_a{
+.recent_Activity_p{
 
     font-size: 24px;
     font-weight: 500;
     line-height: 28.15px;
     color: #000000;
 }
-
-
-.recent_Activity_a:hover{
-
-    font-weight: 700;
-    color: #000000;
-    border-bottom: #EFAF18;
-
+.recent_Activity_p:hover{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 28.15px;
+    border-bottom: 5px solid #FFC558;
 }
-
-
-
-
+.recent_Activity_h6{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+}
+.Categories{
+    box-shadow: 0px 2px 45px 0px #FFC558;
+}
+.Categories h4{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0.1em;    
+}
+@media screen and (max-width:869px) {
+    .background img{
+        display:none;
+    }
+}
+@media screen and (max-width:992px) {
+    nav li{
+       margin: auto;
+       text-align: center;
+       display: block;
+    }
+    nav .btn{
+        margin-top: 10px;
+    }
+}

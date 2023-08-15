@@ -69,7 +69,7 @@
                                     <ul class="dropdown-menu" id="dropdown-menu-item">
                                         <li><a href="#">Business Page</a>
                                         </li>
-                                        <li><a href="">Restaurant and Night Life</a></li>
+                                        <li><a href="{{url('/desktop21')}}">Restaurant and Night Life</a></li>
                                         <li><a href="https://brands.yelp.com/?utm_medium=www&utm_source=cons_home&utm_content=header"> National and Regional Brands</a></li>
                                         <li><a href="https://business.yelp.com/partners/?utm_medium=www&utm_source=cons_home&utm_content=header"> Marketing & Advertising Agencies</a></li>
                                     </ul>
@@ -98,7 +98,7 @@
 
                             </ul>
                             <div class="btn gx-md-2 btn-navbar" id="button-nav">
-                                <a class="btn" >Verify my free listing</a>
+                                <a class="btn" href="{{url('/Lets_Start')}}" >Verify my free listing</a>
                                 <a class="btn" href="{{url('/desktop4')}}">Login</a>
                             </div>
                         </div>

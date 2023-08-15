@@ -60,3 +60,15 @@ Route::get('/desktop8', function () {
 Route::get('/desktop10', function () {
     return view('front.business.desktop10');
 });
+
+Route::get('/desktop21', function () {
+    return view('front.business.desktop21');
+});
+
+Route::get('/desktop22', function () {
+    return view('front.business.desktop22');
+});
+
+Route::get('/desktop23', function () {
+    return view('front.business.desktop23');
+});
